@@ -1,0 +1,77 @@
+/* Grids */
+.container {
+  width: 100%;
+  display: grid;
+  position: relative;
+  margin: auto;
+  /* gap: 2.5%; */
+  gap: .5%;
+  grid-template-areas: "header"
+                       "main-content";
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto;        
+  justify-content: center;        
+  /* background-color: #d39613;    */
+}
+
+header {
+  grid-area: header;
+}
+
+.main-content {
+  grid-area: main-content;
+}
+
+.main-content {
+  width: 100%;
+  display: grid;
+  position: relative;
+  margin: auto;
+  /* gap: 2.5%; */
+  gap: .5%;
+  grid-template-areas: "banner-section"
+                       "projects-section"
+                       "project-list-section"
+                       "skills-list-section"
+                       "images-container"
+                       "info-section"
+                       "footer";   
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto auto auto;        
+  justify-content: center;        
+  /* background-color: #d307a7;    */
+}
+
+#banner-section {
+  grid-area: banner-section;
+}
+
+/* --Projects Section-- */
+#projects-section {
+  grid-area: projects-section;
+}
+
+#project-list-section {
+  grid-area: project-list-section;
+}
+
+/* --Skills Section-- */
+#skills-list-section {
+  grid-area: skills-list-section;
+}
+
+/* --Info Section-- */
+#info-section {
+  grid-area: info-section;
+}
+
+/* --Footer-- */
+footer {
+  grid-area: footer;
+}
+      
+    
+
+
+
+    
