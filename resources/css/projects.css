@@ -23,7 +23,8 @@ h2 {
   
 .project-list {
   width: 96%;       
-  background-image: linear-gradient(rgb(21, 109, 209), black);  
+  /* background-image: linear-gradient(rgb(21, 109, 209), black); */
+  background-image: linear-gradient(rgb(21, 109, 209), rgb(228, 7, 7));  
   flex: 1;
   padding: 2rem 1rem;
 }
@@ -50,7 +51,7 @@ h2 {
   letter-spacing: 0.3px;
   text-align: left;
   /* color: #4a4a4a; */
-  color: #5a5757;
+  color: #9c9494;
   position: relative;
   bottom: 5px;
   padding: 5px 0 10px 0;
@@ -66,7 +67,7 @@ h2 {
   /* color: #4a4a4a; */
   /* color: #fffdfd; */
   /* color: #686464; */
-  color: rgb(90, 134, 199);
+  color: rgb(147, 153, 163);
   padding: 10px;
   border-top: 1px solid #4a4a4a;    
     

@@ -36,7 +36,8 @@ html, body {
 
 .banner {  
   /* background-image: url("../images/feature-1.png");  */
-  background-image: linear-gradient(rgb(21, 109, 209), black);
+  /* background-image: linear-gradient(rgb(21, 109, 209), black); */
+  background-image: linear-gradient(rgb(21, 109, 209), rgb(228, 7, 7));
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat, repeat;
@@ -297,7 +298,8 @@ html, body {
 
 #info-section {
   /* background-color: #f3f3f3; */
-  background-image: linear-gradient(rgb(21, 109, 209), black);
+  /* background-image: linear-gradient(rgb(21, 109, 209), black); */
+  background-image: linear-gradient(rgb(21, 109, 209), rgb(228, 7, 7));
 }
 
 #info-section .content {
@@ -450,7 +452,7 @@ footer .copyright {
     transition: color .1s ease-in, background-color .1s ease-in;
   }
 
-  .email .button a:hover {
+  .email .button:hover {
     color: red;
   }
 
@@ -459,9 +461,9 @@ footer .copyright {
     padding: 1rem 3rem;
   }
 
-  .email .button a {  
+  .email .button {  
     color: rgb(90, 134, 199);
-  }    
+  }     
 
 /* Projects Section */
   
